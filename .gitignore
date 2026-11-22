@@ -1,0 +1,19 @@
+# build and output
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+.kotlin
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Pokemon Battler
+dependency-reduced-pom.xml
+collections/
+last-collection
+README.md
+.github/workflows/javadoc.yml
