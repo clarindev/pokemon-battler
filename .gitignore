@@ -1,19 +1,21 @@
 # build and output
 target/
-!.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+!.mvn/wrapper/maven-wrapper.jar
 .kotlin
 
 # IntelliJ IDEA
 .idea/
-*.iws
 *.iml
 *.ipr
+*.iws
 
-# Pokemon Battler
-dependency-reduced-pom.xml
-collections/
+# Pokémon Battler
 last-collection
+collections/
+dependency-reduced-pom.xml
+# remove later
 README.md
 .github/workflows/javadoc.yml
+# ---
